@@ -1,6 +1,8 @@
 {
     "compilerOptions": {
       "target": "ES2022",
+      "module": "commonjs",
+      "rootDir": "./src",
       "declaration": true,
       "moduleResolution": "Bundler",
       "outDir": "./dist",
@@ -10,7 +12,7 @@
       "skipLibCheck": false,
       "noUnusedLocals": false,
       "noUnusedParameters": false,
-      "types": ["node", "vitest/globals","typescript"],
+      "types": ["node","typescript","vitest/globals"],
       "jsx": "react",
       "jsxFactory": "jsx",
       "jsxFragmentFactory": "Fragment"
